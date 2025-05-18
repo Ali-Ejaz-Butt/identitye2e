@@ -1,0 +1,42 @@
+# Java build artifacts
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# Package files
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Cucumber output
+cucumber-report/
+rerun.txt
+
+# TestNG output
+test-output/
+
+# Environment config
+.env
